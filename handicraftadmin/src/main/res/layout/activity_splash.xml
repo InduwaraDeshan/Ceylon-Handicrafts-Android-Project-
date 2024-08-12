@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Activity.SplashActivity">
+
+    <ImageView
+        android:id="@+id/splashLog"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="top|center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        android:text="@string/app_copy"
+        android:textColor="@color/white"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ProgressBar
+        android:id="@+id/splashProgressBar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:visibility="invisible"
+        android:indeterminateTint="@color/white"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"/>
+
+</FrameLayout>

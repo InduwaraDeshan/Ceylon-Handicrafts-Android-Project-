@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottomNavHome"
+        android:title="@string/bottom_nav_home_title"
+        android:icon="@drawable/baseline_home_24"
+        android:fontFamily="serif"
+        />
+    <item android:id="@+id/bottomNavCategory"
+        android:title="@string/bottom_nav_shop_title"
+        android:icon="@drawable/baseline_category_24"
+        android:fontFamily="serif"
+        />
+    <item android:id="@+id/bottomNavCart"
+        android:title="@string/bottom_nav_cart_title"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:fontFamily="serif"
+        />
+    <item android:id="@+id/bottomNavFavorite"
+        android:title="@string/bottom_nav_favorite_title"
+        android:icon="@drawable/baseline_favorite_24"
+        android:fontFamily="serif"
+        />
+    <item android:id="@+id/bottomNavProfile"
+        android:title="@string/bottom_nav_account_title"
+        android:icon="@drawable/baseline_person_24"
+        android:fontFamily="serif"
+        />
+
+</menu>

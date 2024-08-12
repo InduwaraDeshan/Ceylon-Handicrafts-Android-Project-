@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".Activity.OrderInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewBackPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+
+        <TextView
+            android:id="@+id/textViewCatName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Order Information"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/purple"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/worldmap" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is the convenient way for you ?"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_gravity="center">
+
+
+            <Button
+                android:id="@+id/buttonDelivery"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:layout_weight="1"
+                android:text="Delivery"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="5dp"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/buttonShowStore"-->
+<!--                android:layout_width="100dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="serif"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="In Store Pick Up"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_marginStart="5dp"/>-->
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/deliveryAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:padding="12dp"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/deliveryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What to add a new address?"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/addNewAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Add new Address"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/buttonConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginStart="12dp"
+            android:fontFamily="serif"
+            android:text="Confirm"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Handicraft
+        Admin</string>
+    <string name="bottom_nav_home_title">Home</string>
+    <string name="bottom_nav_category_title">Category</string>
+    <string name="bottom_nav_cart_title">Cart</string>
+    <string name="bottom_nav_profile_title">Profile</string>
+    <string name="side_nav_home_title">Home</string>
+    <string name="side_nav_profile_title">Profile</string>
+    <string name="side_nav_orders_title">Order</string>
+    <string name="side_nav_wishlist_title">WishList</string>
+    <string name="side_nav_message_title">Message</string>
+    <string name="side_nav_setting_title">Setting</string>
+    <string name="side_nav_login_title">Login</string>
+    <string name="side_nav_logout_title">LogOut</string>
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="search_hint">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_version">version</string>
+    <string name="app_copy">Copy Right 2023 (pvt ZeaMac Solution )</string>
+
+
+    <string name="screen1">Welcome to Ceylon Handicraft</string>
+    <string name="screen2">Shop Now</string>
+    <string name="screen3">Get Start</string>
+    <string name="screen1desc">Record a new video or select a video you already have on your phone.
+        Watch YouTube Videos for Free</string>
+    <string name="screen2desc">Create, edit, and upload your own short videos.
+        All you need is an idea and a phone to record and share Shorts. </string>
+    <string name="screen3desc">YouTube live streaming allows you to reach your community in real time.
+    Go live on YouTube from webcam, mobile and encoder streaming.</string>
+    <string name="startDesc">Create a long video or shorts and upload on youtube. Interact with your subscribers on youtube live.</string>
+    <string name="side_nav_cart_title">Cart</string>
+    <string name="bottom_nav_account_title">Account</string>
+    <string name="bottom_nav_favorite_title">Favorite</string>
+    <string name="side_nav_account_title">Account</string>
+    <string name="side_nav_favorite_title">Favorite</string>
+    <string name="side_nav_category_title">Category</string>
+    <string name="bottom_nav_shop_title">Shop</string>
+    <string name="side_nav_aboutus_title">About Us</string>
+    <string name="title_activity_aboutus">AboutusActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="contact_us">Contact Us</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="ask_your_question">Ask Your Question</string>
+    <string name="email">induwarade005@gmail.com</string>
+    <string name="send_your_message">Send your message</string>
+    <string name="change">Change</string>
+    <string name="click"><![CDATA[Click & Collect]]></string>
+    <string name="web_client_id">581412806449-opkji5q261d7en333cog5me4hl60l6ga.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "581412806449",
+    "project_id": "handicraft-f0c75",
+    "storage_bucket": "handicraft-f0c75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581412806449:android:0912f6a7a18ca5e93f5a10",
+        "android_client_info": {
+          "package_name": "lk.zeamac.app.ceylonhandicraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581412806449-ri9m6abhcg55kgt00q4hki97phn09n79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.zeamac.app.ceylonhandicraft",
+            "certificate_hash": "cdaafb50c8fa003beda5b40f39802baace0d8efe"
+          }
+        },
+        {
+          "client_id": "581412806449-opkji5q261d7en333cog5me4hl60l6ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKPDtlNY94aLERZjjH2zFEfsvDP6T9Ywc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581412806449-opkji5q261d7en333cog5me4hl60l6ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
